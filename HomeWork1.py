@@ -16,3 +16,7 @@ value_dict = {"a": True,"b": "bbb","c": [3, 3, 3]}
 print("Передача распакованных элементов Списка в параметры функции:  ")
 print_param(*value_list)
 print_param(**value_dict)
+
+value_list2 = [222,"---Список2---"]
+print("проверка работы функции со списком из двух элементов и присвоенным параметром")
+print_param(*value_list2, "ccc")
